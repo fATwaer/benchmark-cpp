@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/benchmark-cpp/boost/test_boost_split_and_join_string.cc
+catch.hpp
+-
+boost/algorithm/string.hpp
+-
+vector
+-
+

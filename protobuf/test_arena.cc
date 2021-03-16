@@ -26,7 +26,7 @@ int insert_vector(std::uint32_t n) {
 }
 
 TEST_CASE("T") {
-    auto n = GENERATE(2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096);
+    auto n = GENERATE(rang(0, 2048));
 
     BENCHMARK("heap_message " + std::to_string(n)) {
         return heap_message(n);

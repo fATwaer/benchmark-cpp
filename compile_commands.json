@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/benchmark-cpp",
+  "command": "/usr/bin/c++      -o CMakeFiles/hello_cmake.dir/boost/test_boost_split_and_join_string.cc.o -c /root/benchmark-cpp/boost/test_boost_split_and_join_string.cc",
+  "file": "/root/benchmark-cpp/boost/test_boost_split_and_join_string.cc"
+}
+]
